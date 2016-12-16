@@ -1,4 +1,23 @@
 # tjyqhdmhcxhfdm
-##Í³¼ÆÓÃÇø»®´úÂëºÍ³ÇÏç»®·Ö´úÂë
-##ÓïÑÔpython
-##ÅÀÈ¡Ò³Ãæ  http://www.stats.gov.cn/tjsj/tjbz/tjyqhdmhcxhfdm/2015/index.html
+##ç»Ÿè®¡ç”¨åŒºåˆ’ä»£ç å’ŒåŸä¹¡åˆ’åˆ†ä»£ç 
+##è¯­è¨€python
+##çˆ¬å–é¡µé¢  http://www.stats.gov.cn/tjsj/tjbz/tjyqhdmhcxhfdm/2015/index.html
+
+##å·¥å…·
+### BeautifulSoup
+å®‰è£…BeautifulSoup
+sudo apt-get install python-bs4
+æˆ–è€… pip install beautifulsoup4
+
+##å…¶å®ƒ
+###é…ç½®è±†ç“£pipæº
+pip.conf (windows ä¸‹php.ini)
+```
+[global]
+timeout = 60
+index-url = http://pypi.douban.com/simple
+trusted-host = pypi.douban.com
+```
+unix ~/.pip/pip.conf
+windows %APPDATA%\pip\pip.ini
+
